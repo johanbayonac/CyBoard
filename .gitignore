@@ -1,0 +1,19 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Editores / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Artefactos de build de ZMK / Zephyr (locales) ---
+build/
+*.log
+
+# Nota: firmware/*.uf2 y las imagenes *.png se versionan a proposito.
+# Si prefieres NO versionar los binarios compilados, descomenta:
+# firmware/*.uf2
